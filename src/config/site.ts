@@ -1,5 +1,5 @@
 export const siteConfig = {
-  name: "FarmEase",
+  name: "MK Farms",
   url: "https://FarmCare.vercel.app",
   ogImage: "https://FarmCare.vercel.app/og.jpg",
   description:
