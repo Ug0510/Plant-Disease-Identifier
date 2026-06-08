@@ -14,21 +14,21 @@ export default function Home() {
             <h1 className="text-center text-green-400">Temperature Graph</h1>
             <iframe
               className="w-full md:w-[500px] h-[300px]"
-              src="https://thingspeak.com/channels/3402309/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"
+              src="https://thingspeak.com/channels/3402309/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15&api_key=7YEB3BHWZS6WU3XG"
             ></iframe>
           </div>
           <div className="frame-card min-w-fit">
             <h1 className="text-center text-green-400">Humidity Graph</h1>
             <iframe
               className="w-full md:w-[500px] h-[300px]"
-              src="https://thingspeak.com/channels/3402309/charts/2?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"
+              src="https://thingspeak.com/channels/3402309/charts/2?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15&api_key=7YEB3BHWZS6WU3XG"
             ></iframe>
           </div>
           <div className="frame-card">
             <h1 className="text-center text-green-400">Soil Moisture Graph</h1>
             <iframe
               className="w-full md:w-[500px] h-[300px]"
-              src="https://thingspeak.com/channels/3402309/charts/3?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&title=Soil+Moisture&type=line"
+              src="https://thingspeak.com/channels/3402309/charts/3?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&title=Soil+Moisture&type=line&api_key=7YEB3BHWZS6WU3XG"
             ></iframe>
           </div>
           {/* <div className="frame-card">

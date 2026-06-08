@@ -9,7 +9,7 @@ double T, P;
 char status;
 WiFiClient client;
 
-String apiKey = "2JZ16M23J7RM849B";
+String apiKey = "OVDLACRG99N76MRM";
 const char *ssid =  "Mi A2";
 const char *pass =  "pukhraj2004";
 const char* server = "api.thingspeak.com";
